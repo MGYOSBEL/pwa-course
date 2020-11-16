@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "push-notifications-demo-da700": {
+      "hosting": {
+        "angular-pwa-course": [
+          "push-notifications-demo-da700"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "push-notifications-demo-da700"
+  }
+}

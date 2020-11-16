@@ -19,8 +19,12 @@
             "polyfills": "src/polyfills.ts",
             "assets": [
               "src/assets",
+<<<<<<< HEAD
+              "src/favicon.ico"
+=======
               "src/favicon.ico",
               "src/manifest.json"
+>>>>>>> 948cbbab3665613cc2eaf7f25a3c4a9a9b2e32eb
             ],
             "styles": [
               "src/styles.css"
@@ -44,8 +48,11 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
+<<<<<<< HEAD
+=======
               "serviceWorker": true,
               "ngswConfigPath": "src/ngsw-config.json",
+>>>>>>> 948cbbab3665613cc2eaf7f25a3c4a9a9b2e32eb
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -85,8 +92,12 @@
             ],
             "assets": [
               "src/assets",
+<<<<<<< HEAD
+              "src/favicon.ico"
+=======
               "src/favicon.ico",
               "src/manifest.json"
+>>>>>>> 948cbbab3665613cc2eaf7f25a3c4a9a9b2e32eb
             ]
           }
         },
@@ -99,36 +110,17 @@
             ],
             "exclude": []
           }
+<<<<<<< HEAD
+=======
         },
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
             "outputPath": "dist-server/",
             "main": "main.server.ts",
-            "tsConfig": "tsconfig.server.json",
-            "externalDependencies": [
-              "firebase",
-              "@firebase/app",
-              "@firebase/analytics",
-              "@firebase/auth",
-              "@firebase/component",
-              "@firebase/database",
-              "@firebase/firestore",
-              "@firebase/functions",
-              "@firebase/installations",
-              "@firebase/messaging",
-              "@firebase/storage",
-              "@firebase/performance",
-              "@firebase/remote-config",
-              "@firebase/util"
-            ]
+            "tsConfig": "tsconfig.server.json"
           }
-        },
-        "deploy": {
-          "builder": "@angular/fire:deploy",
-          "options": {
-            "ssr": true
-          }
+>>>>>>> 948cbbab3665613cc2eaf7f25a3c4a9a9b2e32eb
         }
       }
     },
